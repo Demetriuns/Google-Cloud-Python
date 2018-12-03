@@ -13,7 +13,7 @@ def main(args):
   
     camera = cv2.VideoCapture(camera_port)
      
-    file = "-Patch-"
+    file = "-Path-"
          
     print ("Digite <ESC> para sair / <s> para Salvar")
      
@@ -51,7 +51,7 @@ client = vision.ImageAnnotatorClient()
 # O arquivo de imagem para análise.
 file_name = os.path.join(
     os.path.dirname(__file__),
-    '-Patch-')
+    '-Path-')
 
 # Carregando a imagem na memória.
 with io.open(file_name, 'rb') as image_file:
